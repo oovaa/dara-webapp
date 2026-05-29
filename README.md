@@ -21,8 +21,8 @@ time and effort.
 - **Chat with Dara**: An interactive AI chat feature that provides personalized support and answers to student queries, simulating a conversational experience to assist with study-related questions and academic guidance.
 
 ## Built with
-- Js runtime  
-  - Bun <img src="https://bun.sh/logo.svg" alt="Bun" width="20" height="20"/>
+- JS runtime  
+  - Bun <img src="https://bun.sh/logo.svg" alt="Bun" width="20" height="20"/> (or Node.js)
 
 - Frontend
   - Nuxt JS <img src="https://nuxt.com/assets/design-kit/icon-green.svg" alt="Js" width="20" height="20"/>
@@ -34,10 +34,7 @@ time and effort.
 
 - Models
   - Cohere embedding <img src="https://asset.brandfetch.io/idfDTLvPCK/id3WZ2-eYm.png" alt="JavaScript" width="20" height="20"/>
-  - Command R+ as the main LLM <img src="https://pbs.twimg.com/media/GKUl-3NWUAAfC27.jpg:large" alt="JavaScript" width="50" height="20"/>
-
-- Database
-  - Redis <img src="https://www.vectorlogo.zone/logos/redis/redis-icon.svg" alt="Redis" width="20" height="20"/>
+  - Command A as the main LLM <img src="https://pbs.twimg.com/media/GKUl-3NWUAAfC27.jpg:large" alt="JavaScript" width="50" height="20"/>
 
 Check the BackEnd repository [Here](https://github.com/oovaa/dara).
 
@@ -56,9 +53,6 @@ pnpm install
 
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -74,9 +68,6 @@ pnpm run dev
 
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -92,9 +83,6 @@ pnpm run build
 
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
@@ -108,9 +96,6 @@ pnpm run preview
 
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
